@@ -154,7 +154,9 @@ body {
     display: inline-block;
     font-size: 12px;
 }
-
+.comp-logo{
+    width: 100px;
+}
 /*  ----------------------------Social Media Section------------------- */
 #social-media{
 background: #f8f9fa;
