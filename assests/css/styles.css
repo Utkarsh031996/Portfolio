@@ -136,15 +136,15 @@ body {
 }
 
 /*  ----------------------------Testimonial Section------------------- */
-#testimonials{
+#experiences{
     margin: 100px 0;
 }
-.testimonials{
+.experiences{
     border-left: 4px solid #7b1798;
     margin-top: 50px;
     margin-bottom: 50px;
 }
-.testimonials img{
+.experiences img{
     height: 60px;
     width: 60px;
     border-radius: 50%;
