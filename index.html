@@ -46,7 +46,7 @@
                         <a class="nav-link" href="#skills">SKILLS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about-us">Roles & Responsibility</a>
+                        <a class="nav-link" href="#roles">Roles & Responsibility</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#experiences">EXPERIENCE</a>
@@ -125,7 +125,7 @@
     </section>
 
     <!-- -----------------------About Us------------------------------ -->
-    <section id="about-us">
+    <section id="roles">
         <div class="container">
             <h1 class="title text-center">Roles & Responsibility</h1>
             <div class="row">
@@ -221,6 +221,12 @@
     <script src="./smooth-scroll.js"></script>
     <script>
         var scroll = new SmoothScroll('a[href*="#"]');
+        const navLinks = document.querySelectorAll('.nav-item')
+const menuToggle = document.getElementById('navbarNav')
+const bsCollapse = new bootstrap.Collapse(menuToggle)
+navLinks.forEach((l) => {
+    l.addEventListener('click', () => { bsCollapse.toggle() })
+})
     </script>
 </body>
 
